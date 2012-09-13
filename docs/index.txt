@@ -5,6 +5,7 @@ AFPy Docs
 .. toctree::
    :maxdepth: 2
 
+   association
    adherents-personnes-morales.txt
    faq.txt
    clavardage.txt
