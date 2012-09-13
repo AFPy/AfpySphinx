@@ -1,47 +1,17 @@
-=============
-L'association
-=============
+Bureau 2012
+===========
 
-Les membres du bureau
-======================
+- **Président** Tarek Ziadé - president at afpy dot org
+- **Vice-Président** Christophe Combelles
+- **Secrétaire** Jean-Philippe Camguilhem - secretaire at afpy dot org
+- **Vice-Secrétaire** Olivier Grisel
+- **Trésorier** Gael Pasgrimaud - tresorerie at afpy dot org
+- **Vice-Trésorier** Gwénaël Bonhommeau
 
-Président
----------
+Statuts
+=======
 
-Tarek Ziadé - president at afpy dot org
-
-Vice-Président
---------------
-
-Christophe Combelles
-
-Secrétaire
-----------
-
-Jean-Philippe Camguilhem - secretaire at afpy dot org
-
-Vice-Secrétaire
----------------
-
-Olivier Grisel
-
-Trésorier
----------
-
-Gael Pasgrimaud - tresorerie at afpy dot org
-
-Vice-Trésorier
---------------
-
-Gwénaël Bonhommeau
+Les status sont disponibles ici `statut`_.
 
 
-Mailing listes de l'AfPy
-=========================
-
-Vous pouvez vous souscrire au `mailing listes <http://lists.afpy.org/>`_
-qu'héberge l'association
-
-Seule la mailing liste des membres est réservée aux adhérent de l'association.
-Les adhérents sont automatiquement abonnés.
-
+.. _statut: http://hg.afpy.org/afpy_gestion/statuts.html

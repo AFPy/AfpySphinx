@@ -1,11 +1,21 @@
-============================
+===================
 Foire aux questions
-============================
+===================
 
 .. contents::
 
-Comment avoir un compte sur AFPy.org ?
---------------------------------------
+Votre compte sur AFPy.org
+=========================
+
+Intérêt
+-------
+
+Être membre permet:
+- payer vos cotisations et savoir si vous êtes à jour,
+- et pour les membres professionnels avoir accès aux services premium tels que l'accès à notre fil d'annonces professsionnelles. 
+
+comment?
+---------
 
 Remplisser ce formulaire_. Puis validez votre compte en cliquant sur le lien
 que vous recevrez par email.
@@ -43,13 +53,24 @@ menu déroulant situé dans la barre verte au dessus de votre annonce.
 
   Si vous omettez cette dernière étape, votre annonce ne sera jamais visible.
 
+Divers
+======
+
+Mailing listes de l'AfPy
+------------------------
+
+Vous pouvez vous souscrire au `mailing listes <http://lists.afpy.org/>`_
+qu'héberge l'association
+
+Les adhérents sont automatiquement abonnés.
+
+
 Combien y a t'il de membres à l'AFPy ?
 ---------------------------------------
 
 Vous pouvez avoir une idée en regardant la carte_
 
 .. _carte: http://www.afpy.org/membres/carte
-
 
 J'ai trouvé un problème sur le site. Que faire ?
 ------------------------------------------------
