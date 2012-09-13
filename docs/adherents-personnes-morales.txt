@@ -1,0 +1,19 @@
+============================
+Adhérents personnes morales
+============================
+
+Cett page recense les personnes morales qui sont membres de l'AFPy.
+
+.. contents::
+   :depth: 1
+   :local:
+
+Entreprises
+===========
+
+Enki Multimedia
+----------------
+
+.. image:: http://e-engura.com/images/logo.gif
+
+
