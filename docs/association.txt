@@ -1,0 +1,45 @@
+Les membres du bureau
+======================
+
+Président
+---------
+
+Tarek Ziadé - president at afpy dot org
+
+Vice-Président
+--------------
+
+Christophe Combelles
+
+Secrétaire
+----------
+
+Jean-Philippe Camguilhem - secretaire at afpy dot org
+
+Vice-Secrétaire
+---------------
+
+Olivier Grisel
+
+Trésorier
+---------
+
+Gael Pasgrimaud - tresorerie at afpy dot org
+
+Vice-Trésorier
+--------------
+
+Gwénaël Bonhommeau
+
+
+Mailing list de l'AfPy
+======================
+
+Mailing listes de l'association:
+
+Index : `http://lists.afpy.org/ <http://lists.afpy.org/>`_
+
+Mailing liste des adhérents (réservé aux adhérent):
+`http://lists.afpy.org/mailman/listinfo/afpy-membres <http://lists.afpy.org/mailman/listinfo/afpy-membres>`_
+
+
