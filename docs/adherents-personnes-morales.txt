@@ -11,9 +11,8 @@ Cett page recense les personnes morales qui sont membres de l'AFPy.
 Entreprises
 ===========
 
-Enki Multimedia
-----------------
 
 .. image:: http://e-engura.com/images/logo.gif
 
+`Enki Multimedia <http://e-engura.com>`_
 
