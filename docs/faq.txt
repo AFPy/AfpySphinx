@@ -27,12 +27,12 @@ Remplissez le formulaire d'adhésion_ après vous être créez un compte.
 
 .. _adhésion: http://www.afpy.org/membres/adhesion
 
-Comment puis-je poster une offre d'emloi ?
+Comment puis-je poster une offre d'emploi ?
 -------------------------------------------
 
 Après vous être crée un compte, allez dans "mes documents", ajoutez un Job (ou
 cliquez sur ce lien_ pour en créer un automatiquement). Remplissez les champs
-puis validez. 
+puis validez.
 
 .. _lien: http://www.afpy.org/createJob
 
