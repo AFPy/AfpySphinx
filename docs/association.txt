@@ -36,14 +36,12 @@ Vice-Trésorier
 Gwénaël Bonhommeau
 
 
-Mailing list de l'AfPy
-======================
+Mailing listes de l'AfPy
+=========================
 
-Mailing listes de l'association:
+Vous pouvez vous souscrire au `mailing listes <http://lists.afpy.org/>`_
+qu'héberge l'association
 
-Index : `http://lists.afpy.org/ <http://lists.afpy.org/>`_
-
-Mailing liste des adhérents (réservé aux adhérent):
-`http://lists.afpy.org/mailman/listinfo/afpy-membres <http://lists.afpy.org/mailman/listinfo/afpy-membres>`_
-
+Seule la mailing liste des membres est réservée aux adhérent de l'association.
+Les adhérents sont automatiquement abonnés.
 
