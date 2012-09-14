@@ -16,6 +16,7 @@ Informations additionnelles
    assocation
    bilan_moral
    inscription
+   ressource
    faq
    clavardage
    :maxdepth: 2
