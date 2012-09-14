@@ -10,14 +10,14 @@ Votre compte sur AFPy.org
 Intérêt
 -------
 
-Être membre permet:
-- payer vos cotisations et savoir si vous êtes à jour,
-- et pour les membres professionnels avoir accès aux services premium tels que l'accès à notre fil d'annonces professsionnelles. 
+Être membre permet :
+- de payer vos cotisations et savoir si vous êtes à jour,
+- et pour les membres professionnels d'avoir accès aux services premium tels que l'accès à notre fil d'annonces professsionnelles. 
 
 comment?
 ---------
 
-Remplisser ce formulaire_. Puis validez votre compte en cliquant sur le lien
+Remplissez ce formulaire_. Puis validez votre compte en cliquant sur le lien
 que vous recevrez par email.
 
 .. _formulaire: http://www.afpy.org/membres/register
@@ -33,20 +33,20 @@ Vous pouvez changer votre mot de passe en passant par ici_.
 Comment adhérer à l'association ?
 ---------------------------------
 
-Remplissez le formulaire d'adhésion_ après vous être créez un compte.
+Remplissez le formulaire d'adhésion_ après vous être créé un compte.
 
 .. _adhésion: http://www.afpy.org/membres/adhesion
 
 Comment puis-je poster une offre d'emploi ?
 -------------------------------------------
 
-Après vous être crée un compte, allez dans "mes documents", ajoutez un Job (ou
+Après vous être créé un compte, allez dans "mes documents", ajoutez un Job (ou
 cliquez sur ce lien_ pour en créer un automatiquement). Remplissez les champs
 puis validez.
 
 .. _lien: http://www.afpy.org/createJob
 
-Une fois satisfait du rendu, vous devez "soumettre" votre annonce a l'aide du
+Une fois satisfait du rendu, vous devez "soumettre" votre annonce à l'aide du
 menu déroulant situé dans la barre verte au dessus de votre annonce.
 
 .. warning::
@@ -59,13 +59,13 @@ Divers
 Mailing listes de l'AfPy
 ------------------------
 
-Vous pouvez vous souscrire au `mailing listes <http://lists.afpy.org/>`_
+Vous pouvez souscrire aux `listes de diffusion <http://lists.afpy.org/>`_
 qu'héberge l'association
 
 Les adhérents sont automatiquement abonnés.
 
 
-Combien y a t'il de membres à l'AFPy ?
+Combien y a-t-il de membres à l'AFPy ?
 ---------------------------------------
 
 Vous pouvez avoir une idée en regardant la carte_
@@ -79,7 +79,7 @@ Vous pouvez créer un ticket sur notre `chasseur de bug`_.
 
 .. _chasseur de bug: http://www.afpy.org/trac
 
-Je n'ai pas trouvé la réponse à  ma question. Que faire ?
+Je n'ai pas trouvé la réponse à ma question. Que faire ?
 ---------------------------------------------------------
 
 Envoyez un email à www@afpy.org contenant votre question.

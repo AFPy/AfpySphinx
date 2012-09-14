@@ -2,7 +2,7 @@
 Adhérents personnes morales
 ============================
 
-Cett page recense les personnes morales qui sont membres de l'AFPy.
+Cette page recense les personnes morales qui sont membres de l'AFPy.
 
 .. contents::
    :depth: 1
