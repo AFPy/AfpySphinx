@@ -1,12 +1,11 @@
-Bureau 2012
+Bureau 2013
 ===========
 
-- **Président** Tarek Ziadé - president at afpy dot org
-- **Vice-Président** Christophe Combelles
+- **Président** Nelle Varoquaux - president at afpy dot org
 - **Secrétaire** Jean-Philippe Camguilhem - secretaire at afpy dot org
 - **Vice-Secrétaire** Olivier Grisel
 - **Trésorier** Gael Pasgrimaud - tresorerie at afpy dot org
-- **Vice-Trésorier** Gwénaël Bonhommeau
+- **Vice-Trésorier** Arthur Vuillard
 
 Statuts
 =======
