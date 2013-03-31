@@ -16,3 +16,14 @@ Les statuts sont disponibles ici `statut`_.
 
 
 .. _statut: http://hg.afpy.org/afpy_gestion/statuts.html
+
+
+Charte AFPy
+================
+
+L'association possède une `charte`_ qui décrit les valeurs et un code de
+conduite. Toute personne participant à un évènement de l'AFPy, qu'il soit
+membre ou non, est tenu de se conformer à cette charte.
+
+.. _charte: coc.html 
+
