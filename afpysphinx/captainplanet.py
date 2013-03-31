@@ -27,12 +27,14 @@ ITEM_TPL = u"""
 </div>
 """
 
+
 def fix_self_closed_tags(html, no_self_close=('script', 'div')):
     """
     Pyquery has a bug where it will self-close tags that have no children.
-    This is invalid for some tags (script and div, namely) and presumably triggers
-    quirks-mode rendering in the browser, which messes with the floaty navigation.
-    
+    This is invalid for some tags (script and div, namely) and presumably
+    triggers quirks-mode rendering in the browser, which messes with the floaty
+    navigation.
+
     This function finds the invalid self-closed using regular expressions and
     fixes them.
     """
@@ -46,12 +48,14 @@ def fix_self_closed_tags(html, no_self_close=('script', 'div')):
     pattern = r'<(?P<tagname>[^ >]+)\s+(?P<attrs>[^>]+)/>'
     return re.sub(pattern, fix, html)
 
+
 def fix_get_pubdate(item):
     """
     There's a bug in pyquery where just doing item('pubDate') will yield None.
     That's why we use this somehow ugly construct (falling back to plain lxml).
     """
     return item[0].find('pubDate').text
+
 
 def fix_doctype(html, doctype='<!DOCTYPE html>',
                 htmltag='<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">'):
@@ -65,6 +69,7 @@ def fix_doctype(html, doctype='<!DOCTYPE html>',
         'content': html,
         'html_closing': '</html>',
     }
+
 
 def render_items(items):
     return u'\n'.join(ITEM_TPL.format(
@@ -88,23 +93,24 @@ def inject_planet(document, planet_html):
 def build_planet_fragment(url):
     document = PyQuery(url, parser='xml')
     rss_items = document('item')
-    
+
     return PLANET_FRAGMENT_TPL % render_items(rss_items)
+
 
 def make_full_page(planet_url, landing_url):
     document = PyQuery(landing_url)
     planet_fragment = build_planet_fragment(planet_url)
     inject_planet(document, planet_fragment)
-    
+
     html = document.html()
-    
+
     html = fix_self_closed_tags(html)
     html = fix_doctype(html)
-    
+
     return html
 
-if __name__ == '__main__':
 
+def main():
     if not (1 < len(sys.argv) < 3):
         sys.stderr.write('Usage: %s [output_file]\n' % sys.argv[0])
         sys.exit(1)
@@ -115,10 +121,13 @@ if __name__ == '__main__':
     else:
         close_at_exit = True
         out = open(sys.argv[1], 'w+')
-    
+
     try:
         html = make_full_page(planet_url=PLANET_URL, landing_url=LANDING_URL)
         out.write(html.encode('utf-8'))
     finally:
         if close_at_exit:
             out.close()
+
+if __name__ == '__main__':
+    main()
