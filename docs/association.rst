@@ -1,6 +1,8 @@
 Bureau 2013
 ===========
 
+Les membres du bureau 2013 sont:
+
 - **Président** Nelle Varoquaux - president at afpy dot org
 - **Secrétaire** Jean-Philippe Camguilhem - secretaire at afpy dot org
 - **Vice-Secrétaire** Olivier Grisel
