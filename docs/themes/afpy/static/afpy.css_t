@@ -1,7 +1,7 @@
-ul.simple li, .toctree-wrapper li {
+ul.simple li, .toctree-wrapper li .sphinxsidebarwrapper li, li ul li{
   display: block;
 }
 
-li.toctree-l2 {
+li.toctree-l2 , li ul li{
   padding-left: 15px;
 }
