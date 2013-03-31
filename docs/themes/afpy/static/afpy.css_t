@@ -5,3 +5,13 @@ ul.simple li, .toctree-wrapper li .sphinxsidebarwrapper li, li ul li{
 li.toctree-l2 , li ul li{
   padding-left: 15px;
 }
+
+h1 a.headerlink, h2 a.headerlink, h3 a.headerlink {
+  visibility: hidden;
+  padding-left: 10px;
+}
+
+h1:hover a.headerlink, h2:hover a.headerlink, h3:hover a.headerlink {
+  visibility: visible;
+  color: #666;
+}
