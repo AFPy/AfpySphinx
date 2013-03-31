@@ -128,4 +128,4 @@ contactez sans attendre un membre organisateur (dans le cas d'un
 Contacts
 =========
 
-diversite@afpy.org
+diversite at afpy dot org
