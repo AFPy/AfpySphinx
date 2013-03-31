@@ -1,4 +1,4 @@
-ul.simple li, li {
+ul.simple li, .toctree-wrapper li {
   display: block;
 }
 
