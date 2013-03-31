@@ -8,6 +8,7 @@ import re
 import sys
 
 from pyquery import PyQuery
+import requests
 
 
 def path_from_here(*bits):
@@ -133,7 +134,11 @@ def remove_auth_links(document):
 
 
 def build_planet_fragment(url):
-    document = PyQuery(url, parser='xml')
+    response = requests.get(url)
+    if response.status_code != 200:
+        # If stuff break, do nothing
+        sys.exit(0)
+    document = PyQuery(response.content, parser='xml')
     rss_items = document('item')
 
     with open(path_from_here('feedicon.png'), 'rb') as f:
