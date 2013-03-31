@@ -12,10 +12,10 @@ Les membres du bureau 2013 sont:
 Statuts
 =======
 
-Les statuts sont disponibles ici `statut`_.
+Les statuts sont disponibles ici `statuts`_.
 
 
-.. _statut: http://hg.afpy.org/afpy_gestion/statuts.html
+.. _statuts: http://hg.afpy.org/afpy_gestion/statuts.html
 
 
 Charte AFPy
