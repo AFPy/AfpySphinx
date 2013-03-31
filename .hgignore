@@ -14,4 +14,4 @@ docs/modules/
 *.pyc
 *.pyo
 *.log
-
+planet.html

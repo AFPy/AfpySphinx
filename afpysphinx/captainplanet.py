@@ -2,17 +2,34 @@
 """
 A script for fetching the AFPY planet and generating an html page out of it.
 """
+from base64 import b64encode
+from os import path
 import re
 import sys
 
 from pyquery import PyQuery
+import requests
+
+
+def path_from_here(*bits):
+    """Return an absolute path from the given relative bits."""
+    here = path.abspath(path.dirname(__file__))
+    return path.join(here, *bits)
+
 
 LANDING_URL = 'http://www.afpy.org/'
 PLANET_URL = 'http://www.afpy.org/planet/rss.xml'
+FEEDICON = path_from_here('feedicon.png')
 
 PLANET_FRAGMENT_TPL = u"""
 <div id="content">
-%s
+    <h1>
+        Planète AFPy
+        <a href="{rss_href}">
+            <img alt="RSS" src="data:image/png;base64,{base64}" />
+        </a>
+    </h1>
+{rss_items}
 </div>
 """
 ITEM_TPL = u"""
@@ -25,6 +42,9 @@ ITEM_TPL = u"""
     {body}
     </blockquote>
 </div>
+"""
+RSS_AUTODISCOVER_TPL = u"""
+<link rel="alternate" type="application/rss+xml" title="{title}" href="{href}" />
 """
 
 
@@ -90,17 +110,53 @@ def inject_planet(document, planet_html):
     main_content.html(planet_html)
 
 
+def inject_rss_autodiscover(document, planet_url):
+    """
+    Add an rss-autodiscover tag to the <head>
+    """
+    html = RSS_AUTODISCOVER_TPL.format(
+        href=planet_url,
+        title=u'Flux RSS Planète AFPy',
+    )
+    tag = PyQuery(html)
+    
+    head = document('head')
+    head.append(tag)
+
+
+def remove_auth_links(document):
+    """
+    Some links change when the user is logged in.
+    Since we scrape the landing page without a session, this would be inconsistent.
+    So we just remove these elements.
+    """
+    document('#portal-searchbox, #portal-personaltools-wrapper').remove()
+
+
 def build_planet_fragment(url):
-    document = PyQuery(url, parser='xml')
+    response = requests.get(url)
+    if response.status_code != 200:
+        # If stuff break, do nothing
+        sys.exit(0)
+    document = PyQuery(response.content, parser='xml')
     rss_items = document('item')
 
-    return PLANET_FRAGMENT_TPL % render_items(rss_items)
+    with open(path_from_here('feedicon.png'), 'rb') as f:
+        icon_data = b64encode(f.read())
+
+    return PLANET_FRAGMENT_TPL.format(
+        rss_items=render_items(rss_items),
+        rss_href=url,
+        base64=icon_data,
+    )
 
 
 def make_full_page(planet_url, landing_url):
     document = PyQuery(landing_url)
     planet_fragment = build_planet_fragment(planet_url)
+    remove_auth_links(document)
     inject_planet(document, planet_fragment)
+    inject_rss_autodiscover(document, planet_url)
 
     html = document.html()
 
@@ -111,7 +167,7 @@ def make_full_page(planet_url, landing_url):
 
 
 def main():
-    if not (1 < len(sys.argv) < 3):
+    if not (1 <= len(sys.argv) <= 2):
         sys.stderr.write('Usage: %s [output_file]\n' % sys.argv[0])
         sys.exit(1)
 
