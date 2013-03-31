@@ -75,5 +75,3 @@ Je n'ai pas trouvé la réponse à ma question, j'ai trouvé un bug sur le site
 ---------------------------------------------------------------------------
 
 Envoyez un email à www@afpy.org contenant votre question.
-
-
