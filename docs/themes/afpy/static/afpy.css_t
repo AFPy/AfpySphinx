@@ -1,3 +1,7 @@
-ul.simple li {
+ul.simple li, li {
   display: block;
+}
+
+li.toctree-l2 {
+  padding-left: 15px;
 }
