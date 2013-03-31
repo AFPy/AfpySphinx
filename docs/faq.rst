@@ -74,4 +74,9 @@ Vous pouvez avoir une idée en regardant la carte_
 Je n'ai pas trouvé la réponse à ma question, j'ai trouvé un bug sur le site
 ---------------------------------------------------------------------------
 
-Envoyez un email à www@afpy.org contenant votre question.
+Envoyez un email à www at afpy dot org contenant votre question.
+
+
+J'ai trouvé un bug sur le site de l'AFPy
+------------------------------------------
+Faites un rapport de bug sur: https://github.com/AFPy/site-web/issues
