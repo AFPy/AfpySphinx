@@ -113,10 +113,10 @@ def inject_rss_autodiscover(document, planet_url):
     """
     Add an rss-autodiscover tag to the <head>
     """
-    html = RSS_AUTODISCOVER_TPL.format(**{
-        'href': planet_url,
-        'title': u'Flux RSS Planète AFPy',
-    })
+    html = RSS_AUTODISCOVER_TPL.format(
+        href=planet_url,
+        title=u'Flux RSS Planète AFPy',
+    )
     tag = PyQuery(html)
     
     head = document('head')
@@ -139,11 +139,11 @@ def build_planet_fragment(url):
     with open(path_from_here('feedicon.png'), 'rb') as f:
         icon_data = b64encode(f.read())
 
-    return PLANET_FRAGMENT_TPL.format(**{
-        'rss_items': render_items(rss_items),
-        'rss_href': url,
-        'base64': icon_data,
-    })
+    return PLANET_FRAGMENT_TPL.format(
+        rss_items=render_items(rss_items),
+        rss_href=url,
+        base64=icon_data,
+    )
 
 
 def make_full_page(planet_url, landing_url):
