@@ -12,7 +12,7 @@ from pyquery import PyQuery
 
 def path_from_here(*bits):
     """Return an absolute path from the given relative bits."""
-    here = path.dirname(path.basename(__file__))
+    here = path.abspath(path.dirname(__file__))
     return path.join(here, *bits)
 
 
