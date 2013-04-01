@@ -21,5 +21,15 @@ h1:hover a.headerlink, h2:hover a.headerlink, h3:hover a.headerlink {
     border: 1px solid red;
     clear: both;
     font-size: 80%;
-    margin: 1em 0;
+    margin: 1em 0em;
+    line-height: 2.1em;
+}
+.warning p {
+    display: inline;
+    padding: 0.5em;
+}
+.warning p.first {
+    background-color: #DD0000;
+    color: White;
+    font-weight: bold;
 }
