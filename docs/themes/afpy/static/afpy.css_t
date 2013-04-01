@@ -1,4 +1,4 @@
-ul.simple li, .toctree-wrapper li .sphinxsidebarwrapper li, li ul li{
+ul.simple li, .toctree-wrapper li, .sphinxsidebarwrapper li, li ul li{
   display: block;
 }
 
