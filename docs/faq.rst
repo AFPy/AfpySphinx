@@ -2,8 +2,6 @@
 Foire aux questions
 ===================
 
-.. contents::
-
 Votre compte sur AFPy.org
 =========================
 
