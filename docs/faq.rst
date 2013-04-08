@@ -35,14 +35,30 @@ Vous pouvez changer votre mot de passe en passant par ici_.
 Comment puis-je poster une offre d'emploi ?
 -------------------------------------------
 
-Après vous être créé un compte, allez dans "mes documents", ajoutez un Job (ou
-cliquez sur ce lien_ pour en créer un automatiquement). Remplissez les champs
-puis validez.
+Après vous être créé un compte, allez dans "Mon dossier personnel" en utilisant
+le menu utilisateur situé en haut à droite:
 
-.. _lien: http://www.afpy.org/createJob
+.. image:: _static/jobs/menu.png
+   :align: center
+   :class: image
 
-Une fois satisfait du rendu, vous devez "soumettre" votre annonce à l'aide du
-menu déroulant situé dans la barre verte au dessus de votre annonce.
+(Si vous ne voyez pas ce menu, cliquez sur le logo AFPy en haut à gauche.)
+
+En utilisant le menu "Ajout d'un élément", ajoutez un "AFPy Job":
+
+.. image:: _static/jobs/add_job.png
+   :align: center
+   :class: image
+
+Remplissez les champs puis validez.
+
+Une fois satisfait du rendu, vous devez "Soumettre à la publication" votre
+annonce à l'aide du menu déroulant situé dans la barre verte au dessus de votre
+annonce.
+
+.. image:: _static/jobs/review.png
+   :align: center
+   :class: image
 
 .. warning::
 

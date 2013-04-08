@@ -33,3 +33,9 @@ h1:hover a.headerlink, h2:hover a.headerlink, h3:hover a.headerlink {
     color: White;
     font-weight: bold;
 }
+img.image {
+    margin: 1em;
+    border: thin solid black;
+    padding: 0.2em;
+    text-align: center;
+}
