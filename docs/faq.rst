@@ -88,7 +88,8 @@ Vous pouvez avoir une idée en regardant la carte_
 Je n'ai pas trouvé la réponse à ma question, j'ai trouvé un bug sur le site
 ---------------------------------------------------------------------------
 
-Envoyez un email à www at afpy dot org contenant votre question.
+Venez poser votre question sur notre salon de :doc:`clavardage` ou envoyez un
+email à www at afpy dot org contenant votre question.
 
 
 J'ai trouvé un bug sur le site de l'AFPy
