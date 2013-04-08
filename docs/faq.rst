@@ -35,7 +35,7 @@ Vous pouvez changer votre mot de passe en passant par ici_.
 Comment puis-je poster une offre d'emploi ?
 -------------------------------------------
 
-Après vous être créé un compte, allez dans "Mon dossier personnel" en utilisant
+Après vous être créé un compte, allez dans ``Mon dossier personnel`` en utilisant
 le menu utilisateur situé en haut à droite:
 
 .. image:: _static/jobs/menu.png
@@ -44,7 +44,7 @@ le menu utilisateur situé en haut à droite:
 
 (Si vous ne voyez pas ce menu, cliquez sur le logo AFPy en haut à gauche.)
 
-En utilisant le menu "Ajout d'un élément", ajoutez un "AFPy Job":
+En utilisant le menu ``Ajout d'un élément``, ajoutez un ``AFPy Job``:
 
 .. image:: _static/jobs/add_job.png
    :align: center
@@ -52,7 +52,7 @@ En utilisant le menu "Ajout d'un élément", ajoutez un "AFPy Job":
 
 Remplissez les champs puis validez.
 
-Une fois satisfait du rendu, vous devez "Soumettre à la publication" votre
+Une fois satisfait du rendu, vous devez ``Soumettre à la publication`` votre
 annonce à l'aide du menu déroulant situé dans la barre verte au dessus de votre
 annonce.
 
@@ -85,13 +85,14 @@ Vous pouvez avoir une idée en regardant la carte_
 
 .. _carte: http://www.afpy.org/membres/carte
 
-Je n'ai pas trouvé la réponse à ma question, j'ai trouvé un bug sur le site
----------------------------------------------------------------------------
-
-Venez poser votre question sur notre salon de :doc:`clavardage` ou envoyez un
-email à www at afpy dot org contenant votre question.
-
-
 J'ai trouvé un bug sur le site de l'AFPy
 ------------------------------------------
 Faites un rapport de bug sur: https://github.com/AFPy/site-web/issues
+
+Je n'ai pas trouvé la réponse à ma question
+---------------------------------------------------------------------------
+
+Venez poser votre question sur notre salon de :doc:`clavardage` ou envoyez un
+email à ``www at afpy dot org`` contenant votre question.
+
+

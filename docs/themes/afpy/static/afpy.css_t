@@ -6,6 +6,10 @@ li.toctree-l2 , li ul li{
   padding-left: 15px;
 }
 
+div.body li {
+    margin: 0.5em;
+}
+
 h1 a.headerlink, h2 a.headerlink, h3 a.headerlink {
   visibility: hidden;
   padding-left: 10px;
@@ -35,7 +39,11 @@ h1:hover a.headerlink, h2:hover a.headerlink, h3:hover a.headerlink {
 }
 img.image {
     margin: 1em;
-    border: thin solid black;
-    padding: 0.2em;
+    border: thin solid #205C90;
+    padding: 0.3em;
     text-align: center;
+}
+
+tt {
+    background: #eee;
 }
