@@ -3,7 +3,7 @@ Clavardage
 
 .. raw:: html
 
-  <iframe src="https://kiwiirc.com/client/irc.freenot.net/?nick=afpy_user|?&theme=basic#afpy" style="border:0; width:100%; height:450px;"></iframe>
+  <iframe src="https://kiwiirc.com/client/irc.freenode.net/?nick=afpy_user|?&theme=basic#afpy" style="border:0; width:100%; height:450px;"></iframe>
 
 ..
   # freenode iframe
