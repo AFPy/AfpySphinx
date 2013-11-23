@@ -16,11 +16,11 @@ Informations additionnelles
 ===========================
 
 .. toctree::
-   assocation
-   bilan_moral
+   :maxdepth: 2
+
+   association
    inscription
-   ressource
+   charte
    faq
    clavardage
-   :maxdepth: 2
 
