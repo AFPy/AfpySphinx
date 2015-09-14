@@ -33,6 +33,11 @@ l'origine ou la religion, et sous quelque forme que ce soit (parole,
 image, texte et autre). Bien évidemment, ceci n'est pas une liste
 exhaustive.
 
+L'AFPY reconnaît cependant la légitimité de minorités qui voudraient 
+mener des actions de soutien à destination de leurs propres membres, en
+vue de favoriser le rééquilibrage de leur représentation au sein de la
+communauté entière.
+
 Bien  que l'AFPy ait pour but la promotion de Python dans le monde
 francophone, l'association s'engage à accueillir chacun, quelle que
 soit son langage de programmation ou sa langue maternelle.
