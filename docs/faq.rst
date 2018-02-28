@@ -11,7 +11,7 @@ Intérêt
 Être membre permet :
 
 - de payer vos cotisations et savoir si vous êtes à jour,
-- et pour les membres professionnels d'avoir accès aux services premium tels que l'accès à notre fil d'annonces professsionnelles. 
+- et pour les membres professionnels d'avoir accès aux services premium tels que l'accès à notre fil d'annonces professsionnelles.
 
 comment?
 ---------
@@ -35,14 +35,7 @@ Vous pouvez changer votre mot de passe en passant par ici_.
 Comment puis-je poster une offre d'emploi ?
 -------------------------------------------
 
-Après vous être créé un compte, allez dans ``Mon dossier personnel`` en utilisant
-le menu utilisateur situé en haut à droite:
-
-.. image:: _static/jobs/menu.png
-   :align: center
-   :class: image
-
-(Si vous ne voyez pas ce menu, cliquez sur le logo AFPy en haut à gauche.)
+Après vous être créé un compte, allez sur l'onglet ``Jobs``
 
 En utilisant le menu ``Ajout d'un élément``, ajoutez un ``AFPy Job``:
 
@@ -50,19 +43,9 @@ En utilisant le menu ``Ajout d'un élément``, ajoutez un ``AFPy Job``:
    :align: center
    :class: image
 
-Remplissez les champs puis validez.
+Remplissez les champs puis enregistrez.
 
-Une fois satisfait du rendu, vous devez ``Soumettre à la publication`` votre
-annonce à l'aide du menu déroulant situé dans la barre verte au dessus de votre
-annonce.
-
-.. image:: _static/jobs/review.png
-   :align: center
-   :class: image
-
-.. warning::
-
-  Si vous omettez cette dernière étape, votre annonce ne sera jamais visible.
+Vous devez attendre qu'un admin publie votre job
 
 Divers
 ======
@@ -94,5 +77,3 @@ Je n'ai pas trouvé la réponse à ma question
 
 Venez poser votre question sur notre salon de :doc:`clavardage` ou envoyez un
 email à ``www at afpy dot org`` contenant votre question.
-
-
