@@ -4,14 +4,12 @@ AfpySphinx
 
 Local install::
 
-    $ python bootstrap.py
-    $ bin/buildout
+    $ pip install -r requirements.txt
     $ cd docs
     $ make html
 
-Production server::
+Production installation::
 
-    $ ssh afpy@py.afpy.org
-    $ cd AfpySphinx/docs
-    $ make html
+    $ cd docs
+    $ make afpy
 
