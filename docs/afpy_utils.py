@@ -6,7 +6,7 @@ We use a global variable as the document as a poor man's cache.
 from pyquery import PyQuery
 
 
-document = PyQuery(url='http://www.afpy.org')
+document = PyQuery(url='http://plone.afpy.org')
 # Remove some stuff we don't want
 document('#portal-searchbox, #portal-personaltools-wrapper').remove()
 

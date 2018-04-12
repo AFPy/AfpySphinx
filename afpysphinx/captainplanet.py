@@ -17,8 +17,8 @@ def path_from_here(*bits):
     return path.join(here, *bits)
 
 
-LANDING_URL = 'http://www.afpy.org/'
-PLANET_URL = 'http://www.afpy.org/planet/rss.xml'
+LANDING_URL = 'http://plone.afpy.org/'
+PLANET_URL = 'http://plone.afpy.org/planet/rss.xml'
 FEEDICON = path_from_here('feedicon.png')
 
 PLANET_FRAGMENT_TPL = u"""

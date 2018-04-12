@@ -21,15 +21,15 @@ comment?
 - Et pensez à rester à jour de vos cotisations :)
 
 
-.. _formulaire: http://www.afpy.org/membres/register
-.. _adhésion: http://www.afpy.org/membres/adhesion
+.. _formulaire: http://plone.afpy.org/membres/register
+.. _adhésion: http://plone.afpy.org/membres/adhesion
 
 J'ai perdu mon mot de passe. Que faire ?
 ----------------------------------------
 
 Vous pouvez changer votre mot de passe en passant par ici_.
 
-.. _ici: http://www.afpy.org/membres/password
+.. _ici: http://plone.afpy.org/membres/password
 
 
 Comment puis-je poster une offre d'emploi ?
@@ -66,7 +66,7 @@ Combien y a-t-il de membres à l'AFPy ?
 
 Vous pouvez avoir une idée en regardant la carte_
 
-.. _carte: http://www.afpy.org/membres/carte
+.. _carte: http://plone.afpy.org/membres/carte
 
 J'ai trouvé un bug sur le site de l'AFPy
 ------------------------------------------
